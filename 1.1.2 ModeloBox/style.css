@@ -13,16 +13,32 @@ a{
     color: #000;
 }
 
-header{
-    background-color: #7FB069;
+header {
+    background: linear-gradient(120deg, #00c6ff, #0072ff, #00c6ff, #0072ff);
+    background-size: 400% 400%;
+    animation: aurora 15s ease infinite;
     padding: 1rem;
     text-align: center;
     color: #fff;
 }
 
+@keyframes aurora {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
 .card{
     width: 30rem;
-    background-color: #7FB069;
+    background: linear-gradient(120deg, #00c6ff, #0072ff, #00c6ff, #0072ff);
+    background-size: 400% 400%;
+    animation: aurora 15s ease infinite;
     border-radius: 10px;
     margin: 2rem;
     display: inline-block;
@@ -55,7 +71,9 @@ header{
 }
 
 .footer-links{
-    background-color: #7FB069;
+    background: linear-gradient(120deg, #00c6ff, #0072ff, #00c6ff, #0072ff);
+    background-size: 400% 400%;
+    animation: aurora 15s ease infinite;
 }
 
 .footer-links img{
