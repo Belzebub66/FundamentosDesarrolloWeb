@@ -1,0 +1,76 @@
+h1{
+    color: #FFFA
+}
+
+h1::first-letter{
+    color: rebeccapurple;
+    font-size: 2rem;
+}
+
+body{
+    padding: 3rem;
+}
+
+img{
+    width: 400px;
+    transition: 100ms;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+
+
+button{
+    width: 20em;
+}
+
+.primary-btn{
+    background-color:firebrick;
+    color: wheat;
+}
+
+.secondary-btn{
+    background-color:wheat;
+    color: fuchsia;
+}
+
+#logo{
+    background-color: blue;
+    padding: 2rem;
+}
+
+.box{
+    width: 400px;
+    height: 400px;
+    background-color: royalblue;
+    border-radius: 10px;
+    transition: 300ms;
+}
+
+.box:hover{
+    background-color: yellowgreen;
+    border-radius: 68%;
+}
+
+section .card-title{
+    color: goldenrod;
+}
+
+#main-logo{
+    background-color: royalblue;
+    padding: 2rem;
+    color: white;
+}
+
+#special-title{
+    color: crimson;
+}
+
+/*selector universal*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: chocolate;
+}
