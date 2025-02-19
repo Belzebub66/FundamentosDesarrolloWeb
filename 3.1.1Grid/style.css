@@ -207,3 +207,9 @@ header {
     background-color: crimson;
     color: #fff;
 }
+
+
+.home-container{
+    display: flex;
+}
+
