@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", serif;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+header {
+    background: linear-gradient(120deg, #00c6ff, #0072ff, #00c6ff, #0072ff);
+    background-size: 400% 400%;
+    animation: aurora 15s ease infinite;
+    padding: 1rem;
+    text-align: center;
+    color: #fff;
+}
+
+@keyframes aurora {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.card{
+    width: 30rem;
+    background: linear-gradient(120deg, #00c6ff, #0072ff, #00c6ff, #0072ff);
+    background-size: 400% 400%;
+    animation: aurora 15s ease infinite;
+    border-radius: 10px;
+    margin: 2rem;
+    display: inline-block;
+}
+
+.card-image-container{
+    width: 100%;
+    height: 40%;
+}
+
+.card-image-container img{
+    width: 30rem;
+    height: 30rem;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+}
+
+.card-info-container{
+    padding: 2rem;
+    text-align: right;
+}
+
+.card-info-container button{
+    border: none;
+    background-color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
+
+.footer-links{
+    background: linear-gradient(120deg, #00c6ff, #0072ff, #00c6ff, #0072ff);
+    background-size: 400% 400%;
+    animation: aurora 15s ease infinite;
+}
+
+.footer-links img{
+    width: 2rem;
+}
+
+
+.nav-links ul{
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links li{
+    font-size: 1.2rem;
+    display: inline;
+    transition: all 0.2;
+}
+
+.nav-links ul li:hover{
+    text-decoration: underline #fff 3px;
+    transform: scale(1.1);
+    color: crimson;
+}
+
+.logo-container{
+    width: 10rem;
+}
+
+.logo-container img{
+    width: 100%;
+    border-radius: 100%;
+}
+
+.card-container{
+    flex-grow: 1;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+
+.card{
+    width: 80%;
+    background-color: lightblue;
+    border-radius: 10px;
+    margin: 2rem;
+    display: flex;
+}
+
+.card-image-container{
+    flex: 1;
+}
+
+.card-image-container img{
+    width: 30 rem;
+    heigth: 100%
+    border-raduis 10px 0 0 10px;
+    overflow: hidden;
+}
+
+.card-info-container{
+    color: crimson;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.card-info-container button{
+    border: none;
+    background-color: #fff;
+    padding: 0.5rem 1rem;
+    margin-top: 0.5rem;
+    font-weight: bold;
+    aligh-self: flex-end;
+    margin: 8rem 0 0 0;
+}
+
+.aside-panel{
+    width: 20%;
+    background-color: lightblue;
+    padding: 2rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.aside-panel h2{
+    padding: 2rem 0 0.5rem 0;
+    border-botton: 2px solid #fff;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    align-items: center;
+}
+
+.footer-links img{
+    width: 2rem;
+}
+
+.search-form{
+    display: flex;
+    gap: 1rem;
+}
+.search-form input{
+    padding: 0.5rem;
+    border-radius: 10px;
+    border: none;
+}
+
+.search-form input::placeholder{
+    color: #000;
+    font-style: italic;
+}
+
+.search-form input:focus{
+    outline: none;
+}
+
+.search-form button{
+    padding: 0.5rem 1rem;
+    border-radius: 10vw;
+    border: none;
+    background-color: #fff;
+
+}
+.search-form button:hover{
+    background-color: crimson;
+    color: #fff;
+}
