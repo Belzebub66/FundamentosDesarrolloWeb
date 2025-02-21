@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+main{
+    display:grid;
+    grid-template-columns: 1fr;
+    justify-content: flex-end;
+}
+.container{
+    diaplay: flex;
+    justify content: center;
+    align-items: center;
+    width: 40rem;
+    border radius: 10px;
+    flex-direction: column;
+    padding 1 rem;
+    gap: 1 rem;
+}
+.container img{
+    width: 100%;
+    border-radius 10px;
+
+}
+
+.container p{
+    font-size:1.2rem;
+    font-weight: 500;
+
+}
+
+.fixed-icon{
+    background-color: crimson;
+    width: 5rem;
+    padding 1 rem;
+    border-radius: 100%;
+    position:fixed;
+    bottom:0.5rem;
+    right: 0.5rem;
+}
+
+.fixed-icon img{
+    filter: invert(1);
+    width:100%;
+}
