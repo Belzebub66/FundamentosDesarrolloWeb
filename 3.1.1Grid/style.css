@@ -175,15 +175,12 @@ main{
 }
 
 
+
 .blog-container{
     display: grid;
     grid-template-columns: 35rem 35rem;
-    grid-template-rows: repeat(4,35rem);
+    grid-template-rows: auto;
     gap: 2rem;
-    justify-items: center;
-    justify-content: center
-    align-items: center ;
-    align-content: center;
     place-content: center;
 }
 
