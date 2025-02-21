@@ -5,18 +5,27 @@
 }
 main{
     display:grid;
-    grid-template-columns: 1fr;
-    justify-content: flex-end;
+    grid-template-columns: (3fr,1fr);
+    width: 100%;
+    place-items:flex-end center;
+    place-content: center;
+    gap:1rem;
 }
 .container{
     diaplay: flex;
     justify content: center;
     align-items: center;
-    width: 40rem;
+    width: 100%;
     border radius: 10px;
     flex-direction: column;
     padding 1 rem;
     gap: 1 rem;
+    z-index: 1;
+    transition:all 0.3;
+}
+
+.container:hover{
+    transform: translateY(3rem) translateZ(3rem);
 }
 .container img{
     width: 100%;
