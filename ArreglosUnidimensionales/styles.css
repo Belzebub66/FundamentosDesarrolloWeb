@@ -1,0 +1,22 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    overflow: hidden;
+}
+
+  input,
+button {
+    padding: 5px;
+    font-size: 16px;
+    margin: 5px;
+}
+
+#fly {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80px; /* Ajusta el tamaño según necesites */
+    user-select: none;
+    pointer-events: none;
+  }

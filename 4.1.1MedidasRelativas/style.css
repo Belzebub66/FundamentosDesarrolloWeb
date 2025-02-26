@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 20px;
+}
+
+h1{
+    font-size: 1rem;
+}
+
+div{
+    font-size:30px;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+.rojo{
+    background-color:crimson;
+    width: 100vw;
+    height: calc(100vh/3);
+}
+
+.azul{
+    background-color:blue;
+    width: 100vw;
+    height: 33.3333vw;
+}
+
+.amarillo{
+    background-color:yellow;
+    width: 100vw;
+    height: 33.3333vw;
+}
